@@ -2,12 +2,24 @@ html {
   background-color: antiquewhite;
 }
 
-main img {
-  margin-left: 150px;
+.pet-container {
+  align-content: center;
+  display: block;
+}
+
+#zen {
+  border-radius: 50px;
+  border-style: groove;
+  border-color: black;
+  display: block;
+  max-height: 55vh;
+  margin-left: auto;
+  margin-right: auto;
+  left: 3em;
 }
 
 .status-container {
-  transform: translateX(40vw);
+  transform: translateX(43vw);
   position: relative;
   font-size: 1.8em;
 }
@@ -15,7 +27,7 @@ main img {
 div button {
   padding: 20px;
   transform: translateY(-50%);
-  transform: translateX(38vw);
+  transform: translateX(41vw);
   position: relative;
 }
 

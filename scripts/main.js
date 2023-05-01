@@ -14,11 +14,11 @@ const playButton = document.querySelector("#play-button");
 
 function playPet() {
   hungerLevel -= 10;
-  if (hungerLevel > 30) {
+  if (hungerLevel > 40) {
     hungerEl.innerText = hungerLevel + "%";
     mood = "Happy";
     moodEl.innerText = mood;
-  } else if (hungerLevel <= 30 && hungerLevel > 10) {
+  } else if (hungerLevel <= 40 && hungerLevel > 10) {
     hungerEl.innerText = hungerLevel + "%";
     mood = "Hangry";
     moodEl.innerText = mood;
@@ -35,11 +35,11 @@ function feedPet() {
     hungerEl.innerText = hungerLevel + "%";
     mood = "Starving";
     moodEl.innerText = mood;
-  } else if (hungerLevel > 10 && hungerLevel <= 30) {
+  } else if (hungerLevel > 10 && hungerLevel <= 40) {
     hungerEl.innerText = hungerLevel + "%";
     mood = "Hangry";
     moodEl.innerText = mood;
-  } else if (hungerLevel <= 100 && hungerLevel > 30) {
+  } else if (hungerLevel <= 100 && hungerLevel > 40) {
     hungerEl.innerText = hungerLevel + "%";
     mood = "Happy";
     moodEl.innerText = mood;

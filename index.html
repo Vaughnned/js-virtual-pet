@@ -12,12 +12,14 @@
     <main class="pet-container">
       <img src="https://octodex.github.com/images/yogitocat.png" alt="pet" />
       <section class="status-container">
-        <p>Name: <span id="pet-name">Chad</span></p>
-        <p>Hunger: <span id="hunger-level">50%</span></p>
-        <p>Mood: <span id="mood"></span>Sad</p>
+        <p><strong>Name:</strong> <span id="pet-name">Chad</span></p>
+        <p><strong>Hunger:</strong> <span id="hunger-level">50%</span></p>
+        <p><strong>Mood:</strong> <span id="mood"></span>Happy</p>
       </section>
-      <button id="feed-button">Feed</button>
-      <button id="play-button">Play</button>
+      <div>
+        <button id="feed-button" onclick="feedPet()">Feed</button>
+        <button id="play-button" onclick="playPet()">Play</button>
+      </div>
     </main>
     <script src="scripts/main.js"></script>
   </body>

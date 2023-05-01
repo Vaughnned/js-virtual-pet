@@ -1,0 +1,24 @@
+html {
+  background-color: antiquewhite;
+}
+
+main img {
+  margin-left: 150px;
+}
+
+.status-container {
+  transform: translateX(40vw);
+  position: relative;
+  font-size: 1.8em;
+}
+
+div button {
+  padding: 20px;
+  transform: translateY(-50%);
+  transform: translateX(38vw);
+  position: relative;
+}
+
+button {
+  margin: 20px;
+}

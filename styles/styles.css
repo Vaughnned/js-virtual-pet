@@ -28,7 +28,7 @@ html {
 div button {
   padding: 20px;
   transform: translateY(-50%);
-  transform: translateX(41vw);
+  transform: translateX(40.5vw);
   position: relative;
 }
 
